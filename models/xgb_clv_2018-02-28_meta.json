@@ -1,0 +1,20 @@
+{
+  "ref": "2018-02-28",
+  "metrics": {
+    "ref": "2018-02-28",
+    "mae": 3.044328331557534,
+    "spearman": 0.8916143680223817
+  },
+  "features": [
+    "Recency",
+    "Frequency",
+    "Monetary",
+    "lifetime_days",
+    "avg_purchase_interval",
+    "avg_review_score",
+    "bad_review_rate",
+    "avg_installments",
+    "credit_share",
+    "payment_variety"
+  ]
+}

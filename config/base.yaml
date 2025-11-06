@@ -1,0 +1,23 @@
+data:
+  raw_dir: "data/raw"
+  interim_dir: "data/interim"
+  features_dir: "data/features"
+  olist_paths:
+    orders: "data/raw/olist_orders_dataset.csv"
+    customers: "data/raw/olist_customers_dataset.csv"
+    order_items: "data/raw/olist_order_items_dataset.csv"
+    payments: "data/raw/olist_order_payments_dataset.csv"
+    reviews: "data/raw/olist_order_reviews_dataset.csv"
+    products: "data/raw/olist_products_dataset.csv"
+    category_map: "data/raw/product_category_name_translation.csv"
+    sellers: "data/raw/olist_sellers_dataset.csv"
+    geolocation: "data/raw/olist_geolocation_dataset.csv"
+
+experiment:
+  reference_date: "2018-08-31"
+  obs_window_days: 180
+  pred_window_days: 180
+
+model:
+  margin_rate: 0.35        # 预估毛利率（35%，可根据品类调节）
+  discount_rate_annual: 0.10   # 折现率（暂未使用）

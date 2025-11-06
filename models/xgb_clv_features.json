@@ -1,0 +1,12 @@
+[
+  "Recency",
+  "Frequency",
+  "Monetary",
+  "lifetime_days",
+  "avg_purchase_interval",
+  "avg_review_score",
+  "bad_review_rate",
+  "avg_installments",
+  "credit_share",
+  "payment_variety"
+]
